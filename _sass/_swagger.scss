@@ -16,8 +16,19 @@
 
 .swagger-path {
     font-size: $base-font-size * 1.2;
-    margin: 25px 0 10px 0;
+    margin: 10px 0 10px 0;
     font-family: Courier New,Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono, monospace;
+}
+
+.swagger-tag {
+    margin-top: 40px;
+}
+.swagger-tag:not(last-of-type) {
+    margin-bottom: 25px;
+}
+
+.swagger-tag-title {
+    margin-bottom: 0;
 }
 
 .swagger-method {
@@ -116,4 +127,3 @@
         color: red;
     }
 }
-
